@@ -7,6 +7,13 @@
   color: #6695c2;
 }
 
+.nav-item.active {
+  border: 2px solid #6695c2;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
 .login-buttom {
   border-radius: 20px;
   background: transparent;
@@ -26,9 +33,29 @@
 
 /** Estilos del search*/
 
+.titulo-form {
+  position: relative;
+  top: 180px;
+  z-index: 2;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6695c2;
+}
+
+i {
+  color: #6695c2 !important;
+}
+
+form {
+  color: #888585 !important;
+}
+
 .contenedor-formulario {
   position: relative;
   top: 200px;
+  height: 300px;
+  border: 4px solid #6695c2;
+  border-radius: 10px;
 }
 
 .active-cyan-2 input[type="text"] {
@@ -47,4 +74,31 @@
 .active-cyan .fa,
 .active-cyan-2 .fa {
   color: #6695c2;
+}
+
+.icono-search {
+  top: 10px;
+  font-size: 25px;
+}
+
+.calendario-ida {
+  top: 5px;
+  font-size: 30px;
+}
+.calendario-vuelta {
+  top: 5px;
+  font-size: 30px;
+  left: 0.5%;
+}
+
+.label-calendario {
+  font-size: 20px;
+  top: 20px;
+}
+
+.boton-buscar {
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #6695c2;
+  color: #888585;
 }
